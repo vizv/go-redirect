@@ -3,5 +3,14 @@
 ## Usage
 
 ```
-$ NEW_HOST='http://your-host-here' ./go-redirect
+$ ALIASES_FILE=/tmp/test.aliases ./go-redirect
+```
+
+## Alias File
+
+```
+# 我是一个注释
+# 将 viz 重定向到 vizv.com
+viz: http://vizv.com
+# 注意一定要带协议 http:// 或 https://
 ```
